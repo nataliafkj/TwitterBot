@@ -6,11 +6,11 @@ import os
 import shutil
 
 
-API_KEY = "evvoknpZeD135PfQMD2VxgreY"
-API_SECRET = "9yqHqGTenljCMSScpoQxfbu10jH88PDkaV9xNH0Sp9dN0pBhvz"
+API_KEY = ""
+API_SECRET = ""
 
-ACCESS_TOKEN = "1499523277613453312-PW53aADzzNpv4ZgbGDsjYMhXsuZcLA"
-ACCESS_SECRET = "rTOSln8T6De68reJr7dwCx91x7hjfCYhhCZOIIjo7JysH"
+ACCESS_TOKEN = ""
+ACCESS_SECRET = ""
 
 auth = tweepy.OAuthHandler(API_KEY,API_SECRET)
 auth.set_access_token(ACCESS_TOKEN,ACCESS_SECRET)
